@@ -28,14 +28,14 @@
             width: 58%;
             display: inline-block;
         }
-        ul{
+        nav ul{
             display: inline-block;
             width: 90%; 
             text-align: end;
             position: relative;
             top: 25px;
         }
-        li{
+        nav li{
             display: inline;
             padding: 1%;
         }
@@ -63,8 +63,9 @@
             position: relative;
                 left: 45px;   
             }
-            img{
+            figure img{
                 width: 450px;
+
             }
             /*Article vídeos*/ 
         article { 
@@ -98,7 +99,7 @@
             height: 250px;
             border: solid 1px;
             margin-top: 10px;
-            display: inline-block;
+            display: flex;
             width: 100%;
         }
         .logoFo{
@@ -132,13 +133,44 @@
             height: 210px;
             border: solid 1px;
             margin: 10px 10px 10px 10px;
+            width: 90%;
             background-color: aqua;
+            display: inline-block;
+        }
+        .imgFigueirense{
+            width: 45%;
+            position: relative;
+        }
+        .imgRedes{
+            width: 100%;
+            position: relative;
+            bottom: 80px
         }
         .listaFo2{
             height: 210px;
             border: solid 1px;
             margin: 10px 10px 10px 10px;
             background-color: rgb(24, 170, 48);
+        }
+
+        .listaFo2 ul{
+        list-style-type: none;  
+        }
+
+        .listaFo2 li{
+            margin-top:10px;
+            font-size: 15px;
+            position: relative; 
+            left: 85px;
+            top: 25px;
+        }
+
+        
+        h5{
+            font-size: 18px;
+            text-align: center;
+            color: #fff;
+            margin-top: 10px;
         }
         .contatoFo2{
             height: 120px;
@@ -211,16 +243,30 @@
     <footer>        
 
         <div class="logoFo"> 
-            <div class="logoFo2"> </div>
+            <div class="logoFo2"> 
+                <img src="Figueirense.png" class="imgFigueirense">
+            </div>
+               
         </div>
 
         <div class = "listaFo">
-            <div class = "listaFo2"></div>
+            <div class = "listaFo2">
+            <h5>Conheça-nos</h5>
+            <ul>
+                <li>Sobre</li>
+                <li>Loja</li>
+                <li>História</li>
+                <li>Contato</li>
+              
+            </ul>
         </div>
+    </div>
 
         <div class="contatoFo">
-            <div class="contatoFo2"></div>
-            <div class="contatoFo3"></div>
+            <div class="contatoFo2">Conheça nossas redes sociais</div>
+            <div class="contatoFo3">
+                <img src = "redes.png" class="imgRedes">
+            </div>
         </div>
 
    
